@@ -173,9 +173,22 @@ nav ul ul ul li{
 	clear:both;
 }
 .iframevideo{
-	<!--height: 300px;-->
+	height: auto;
 	padding-bottom: 14%;
-	width:100%;
+	width:100% !important;
+}
+
+.videowrapper{
+    position: relative;
+    padding-bottom: 66.25%;
+}
+.videowrapper iframe{
+    position: absolute;
+    padding-bottom: 10%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 .clear{
 	clear:both;
